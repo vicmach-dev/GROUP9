@@ -1,8 +1,8 @@
 import React from 'react'
 import Images from '../assets/Images/IMAGE1.jpg'
-import { FaFacebook } from "react-icons/fa";
+import { FiFacebook } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
-import { FaTwitter } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
 import { RiPhoneFill } from "react-icons/ri";
@@ -16,9 +16,9 @@ import { RiStarFill } from "react-icons/ri";
 
 const Home = () => {
   return (
-   <main>
+   <section>
    {/* HEADER */}
-   <header className="h-[12vh] bg-[gray] flex justify-around font-[times-new-roman] items-center text-white">
+   <header className="h-[12vh] bg-[gray] flex justify-around font-[times-new-roman] items-center text-white cursor-pointer w-[100%]">
         <div className="flex flex-col justify-center items-center">
           <img src="src/assets/Images/EventHaven-removebg-preview.png" alt="" className='w-[15vw] h-[30vh]'/>
           
@@ -37,14 +37,14 @@ const Home = () => {
       </header>
 
       {/* INRO */}
-    <section>
+    <section class="intro">
       <div className="h-[100vh] flex justify-center items-center">
-        <div className="flex justify-center items-center flex-col">
-          <h1 className="text-black text-5xl font-[times-new-roman] flex font-bold">
+        <div className="flex justify-center items-center flex-col gap-5">
+          <h1 className="text-6xl font-[times-new-roman] flex font-bold">
             Your Gateway To Professional Event Planning
           </h1>
-          <div className="flex justify-center items-center m-5">
-            <p className="text-black font-[times-new-roman] w-[35vw] text-2xl text-center">
+          <div className="flex justify-center items-center">
+            <p className=" font-[times-new-roman] w-[55vw] text-3xl  text-center">
               Our platform bridges the gap between clients and Professional
               planners, providing a seamless,efficient, and tailored approach to
               creating extraordinary events.
@@ -55,7 +55,7 @@ const Home = () => {
     </section>
 
     {/* WHAT WE DO */}
-    <section className="w-[100%] h-[100vh] flex items-center justify-center flex-col">
+    <section class="wedo">
       <div className="flex justify-center items-center w-[100%] h-[50vh]">
             <h1 className="text-3xl font-[times-new-roman] text-center font-bold">WHAT WE DO</h1>
       </div>
@@ -69,7 +69,7 @@ const Home = () => {
               the tools and resources to make every event seamless, stress-free,
               and unforgettable.
             </p>
-            <img src="src/assets/Images/IMAGE2.jpg" alt="" className='h-[80vh] w-[50vw]'/>
+            <img src="src/assets/Images/IMAGE2.jpg" alt="" className='h-[80vh] w-[50vw] flex items-center justify-center'/>
           </div>
     </section>
 
@@ -80,10 +80,7 @@ const Home = () => {
         <img src="src/assets/Images/IMAGE3.jpg" alt="" className='h-[80vh] w-[50vw]'/>
         </div>
         <div>
-          <h1 className="text-3xl font-[times-new-roman] text-center font-bold">
-            {" "}
-            ABOUT US
-          </h1>
+          <h1 className="text-4xl font-[times-new-roman] text-center font-bold">ABOUT US</h1>
           <div>
             <p className="w-[30vw] leading-10  font-[times-new-roman] text-justify mt-10 text-xl">
               At <span className='font-bold'>Event Haven</span>, we bridge the gap between event
@@ -100,13 +97,14 @@ const Home = () => {
     </section>
 
     {/* WHAT WE OFFER */}
-    <section className="h-[80vh] w-[100%]">
-      <h1 className="text-3xl font-[times-new-roman] text-center my-5 font-bold">
+    <section class="weoffer">
+      <h1 className="text-3xl font-[times-new-roman] text-center  font-bold text-white">
         WHAT WE OFFER
       </h1>
+      <br />
 
       <div className="flex justify-center gap-5">
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-xl font-[times-new-roman] font-bold  text-center">
             Comprehensive Event Solutions
           </h1>
@@ -119,7 +117,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-xl font-[times-new-roman] font-bold  text-center">
             Custom Event Planning
           </h1>
@@ -131,7 +129,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h3 className="text-xl font-[times-new-roman] font-bold  text-center w-[20vw]">Professional Planner Network</h3>
           <div>
             <p className="font-[times-new-roman] mt-5 text-center p-3">
@@ -143,7 +141,7 @@ const Home = () => {
       </div>
 
       <div className="flex mt-10 justify-center gap-5">
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center">
             Trusted Vendor Access
           </h1>
@@ -154,7 +152,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center">
             Collaboration Made
           </h1>
@@ -165,12 +163,12 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center">
             User-Friendly tools
           </h1>
           <div>
-            <p className="font-[times-new-roman] mt-5 text-center p-3">
+            <p className="font-[times-new-roman] text-center p-3">
               Utilize intuitive features such as RSVP tracking, ticketing
               systems, and real-time updates to keep your event on track.
             </p>
@@ -180,12 +178,12 @@ const Home = () => {
     </section>
 
     {/* OUR SERVICES */}
-    <section className="h-[70vh] mt-16">
+    <section className="h-[100vh] w-[100%] flex items-center justify-center flex-col">
       <h1 className="text-3xl font-[times-new-roman] text-center my-10 font-bold">
         OUR SERVICES
       </h1>
-      <div className="flex justify-center gap-10">
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+      <div className="flex justify-center gap-5">
+        <div className=" shadow-lg shadow-[gray] h-[55vh] w-[30vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center mt-5">
             CLIENTS/USERS
           </h1>
@@ -201,7 +199,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-lg shadow-[gray] h-[55vh] w-[30vw] rounded-md flex items-center justify-center flex-col">
           <h2 className="text-2xl font-[times-new-roman] font-bold  text-center">
             EVENT PLANNERS
           </h2>
@@ -217,15 +215,12 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
-          <h3 className="text-2xl font-[times-new-roman] font-bold  flex items-center justify-center w-[16vw]">
-            VENDORS
-          </h3>
+        <div className=" shadow-lg shadow-[gray] h-[55vh] w-[30vw] gap-8 rounded-md flex items-center justify-center flex-col">
+          <h1 className="text-2xl font-[times-new-roman] font-bold  flex items-center justify-center w-[16vw]">VENDORS</h1>
           <div>
-            <p className="font-[times-new-roman] mt-3 text-center p-3 font-bold">
-              "Showcase Your Services, Grow your Network"
-            </p>
-            <p className="font-[times-new-roman] text-center p-3 leading-7">
+            <p className="font-[times-new-roman]  font-bold ">"Showcase Your Services, Grow your Network"</p>
+            <br />
+            <p className="font-[times-new-roman] text-center w-[25vw] flex items-center justify-center leading-7">
               Reach the right audience by listing your services for catering,
               decorations, venues, and more. Collaborate with event planners and
               clients to turn their visions into reality, and expand your
@@ -237,13 +232,13 @@ const Home = () => {
     </section>    
 
     {/* TESTIMONIALS */}
-    <section className="h-[80vh] p-5">
+    <section className="h-[100vh] flex items-center justify-center flex-col">
       <h1 className="text-3xl font-[times-new-roman] text-center font-bold">
         TESTIMONIALS
       </h1>
       <div className="flex gap-3 mt-10">
-        <div className=" shadow-lg shadow-[gray] h-[47vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-3">
-          <p className="font-[times-new-roman] text-center pb-8 text-balance">
+        <div className=" shadow-lg shadow-[gray] h-[50vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-2">
+          <p className="font-[times-new-roman] text-center text-balance w-[21vw]">
             "Planning my wedding felt overwhelming untill i discovered this
             platform. from finding the perfect planner to coordinating vendors,
             everything was seamless. Highly recommend!"
@@ -266,15 +261,15 @@ const Home = () => {
             </i>
           </div>
           <span className="flex justify-center items-center gap-5 w-[25vw]">
-          <img src="src/assets/Images/EventHaven-removebg-preview.png" alt="" />
+          <img src="src/assets/Images/IMAGE5.jpg" alt="" className='h-[3vw] w-[3vw] rounded-full'/>
           </span>
           <p className="font-[times-new-roman] text-center font-bold">
             Ebeleagu David Ben
           </p>
         </div>
 
-        <div className="shadow-lg shadow-[gray] h-[47vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-3">
-          <p className="font-[times-new-roman] text-center p-5">
+        <div className="shadow-lg shadow-[gray] h-[50vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-2">
+          <p className="font-[times-new-roman] text-center w-[21vw]">
             "This website has transformed the way i connect with clients. It
             streamlined my workflow, and help me grow my business tenfold. A
             must-have for any event planner!"
@@ -297,15 +292,15 @@ const Home = () => {
             </i>
           </div>
           <span className="flex justify-center items-center gap-5 w-[25vw]">
-          <img src="src/assets/Images/EventHaven-removebg-preview.png" alt="" />
+          <img src="src/assets/Images/IMAGE5.jpg" alt="" className='h-[3vw] w-[3vw] rounded-full'/>
           </span>
           <p className="font-[times-new-roman] text-center font-bold">
             Gorgie Michael
           </p>
         </div>
 
-        <div className="shadow-lg shadow-[gray] h-[47vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-3">
-          <p className="font-[times-new-roman] text-center p-5">
+        <div className="shadow-lg shadow-[gray] h-[50vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-2">
+          <p className="font-[times-new-roman] text-center w-[21vw]">
             "Being part of this platform has been a game changer for my catering
             business. I have gained exposure to so many events i wouldnt have
             reached otherwise."
@@ -328,15 +323,15 @@ const Home = () => {
             </i>
           </div>
           <span className="flex justify-center items-center gap-5 w-[25vw]">
-          <img src="src/assets/Images/EventHaven-removebg-preview.png" alt="" />
+          <img src="src/assets/Images/IMAGE5.jpg" alt="" className='h-[3vw] w-[3vw] rounded-full'/>
           </span>
           <p className="font-[times-new-roman] text-center font-bold">
             Chiedozie Sopulu Favor
           </p>
         </div>
 
-        <div className=" shadow-lg shadow-[gray] h-[47vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-3">
-          <p className="font-[times-new-roman] text-center pb-8 p-5">
+        <div className=" shadow-lg shadow-[gray] h-[50vh] w-[23vw] rounded-md flex items-center justify-center flex-col gap-2">
+          <p className="font-[times-new-roman] text-center w-[21vw]">
             "Our annual tech conference was a huge success, thanks to the
             resources on this site. From the venue to the decorations,
             everything exceeded our expectations. "
@@ -359,7 +354,7 @@ const Home = () => {
             </i>
           </div>
           <span className="flex justify-center items-center">
-          <img src="src/assets/Images/EventHaven-removebg-preview.png" alt="" />
+          <img src="src/assets/Images/IMAGE5.jpg" alt="" className='h-[3vw] w-[3vw] rounded-full'/>
           </span>
           <p className="font-[times-new-roman] text-center font-bold">
             Victoria Obed
@@ -369,10 +364,10 @@ const Home = () => {
     </section>
 
     {/* CONTACT US */}
-    <section className="h-[70vh] bg-[#394457] font-[times-new-roman]">
+    <section className="h-[70vh] bg-[#394457] font-[times-new-roman] cursor-pointer">
       <div className="flex p-10 justify-around items-center">
         <div className="flex flex-col justify-center items-center">
-          <div className="bg-[#fe2e19] rounded-full text-3xl text-white w-12 h-13 p-2">
+          <div className="bg-[#fe2e19] rounded-full text-2xl text-white w-[3vw] h-[3vw] flex items-center justify-center">
             <i>
               <RiPhoneFill />
             </i>
@@ -383,7 +378,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <div className="bg-[#fe2e19] rounded-full text-3xl text-white w-[3vw] h-[3vw] flex items-center justify-center">
+          <div className="bg-[#fe2e19] rounded-full text-2xl text-white w-[3vw] h-[3vw] flex items-center justify-center">
             <i>
               <FaEnvelope />
             </i>
@@ -394,7 +389,7 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center">
-          <div className="bg-[#fe2e19] rounded-full text-3xl text-white w-[3vw] h-[3vw] flex items-center justify-center">
+          <div className="bg-[#fe2e19] rounded-full text-2xl text-white w-[3vw] h-[3vw] flex items-center justify-center">
             <i>
               <FaLocationDot />
             </i>
@@ -413,7 +408,7 @@ const Home = () => {
 
       <div className="flex justify-around ">
         <div className="text-white font-[times-new-roman]">
-          <h1 className="font-bold text-2xl hover:uppercase hover:text-blue-300">
+          <h1 className="font-bold text-2xl cursor-pointer hover:text-blue-300">
             About
           </h1>
           <div className="mt-3 leading-7 opacity-50">
@@ -425,7 +420,7 @@ const Home = () => {
         </div>
 
         <div className="text-white font-[times-new-roman]">
-          <h2 className="font-bold text-2xl hover:uppercase hover:text-blue-300">
+          <h2 className="font-bold text-2xl cursor-pointer hover:text-blue-300">
             Our Company
           </h2>
           <div className="mt-3 leading-7 opacity-50">
@@ -437,7 +432,7 @@ const Home = () => {
         </div>
 
         <div className="text-white font-[times-new-roman]">
-          <h3 className="font-bold text-2xl hover:uppercase hover:text-blue-300">
+          <h3 className="font-bold text-2xl cursor-pointer hover:text-blue-300">
             What We do
           </h3>
           <div className="mt-3 leading-7 opacity-50">
@@ -456,9 +451,9 @@ const Home = () => {
             <input
               type="email"
               placeholder="Email address"
-              className="w-[15vw] h-[5vh] rounded-l-md pl-5"
+              className="w-[15vw] h-[5vh] rounded-l-md pl-3 rounded-r-md"
             />
-            <button className="bg-[#fe2e19] text-white text-xl p-2 rounded-r-md absolute">
+            <button className="bg-[#fe2e19] text-white text-xl p-2 rounded-r-md absolute h-[5vh] rounded-l-md">
               
                 <FaArrowRight />
               
@@ -472,36 +467,26 @@ const Home = () => {
     </section>
 
       {/* FOOTER */}
-      <section className="bg-[#1f1f1f] h-[20vh] font-[times-new-roman]">
-      <div className="flex justify-center gap-12 text-5xl p-5 text-white">
-        <span>
-          
-          <FaFacebook />
-          
+      <section className="bg-[#1f1f1f] h-[20vh] pt-4 font-[times-new-roman] flex items-center justify-center flex-col cursor-pointer">
+      {/* <div className="flex justify-center text-2xl items-center w-[100%] h-[20vh] text-white border-blue-600 border-[1px]"> */}
+        <span className='flex items-center justify-center w-[100%] text-white h-[10vh]'>
+          <div className='w-[100%] flex items-center justify-center gap-10 '>
+          <FiFacebook  className='border-white border-[1px] w-[2vw] h-[2vw] rounded-full flex items-center justify-center'/>
+          <CiLinkedin  className='border-white border-[1px] w-[2vw] h-[2vw] rounded-full flex items-center justify-center'/>
+          <RiTwitterXLine  className='border-white border-[1px] w-[2vw] h-[2vw] rounded-full flex items-center justify-center'/> 
+          <FaInstagram  className='border-white border-[1px] w-[2vw] h-[2vw] rounded-full flex items-center justify-center'/>
+          </div>
         </span>
-        <span>
-          
-          <CiLinkedin />
-          
-        </span>
-        <span>
-          
-          <FaTwitter />
-          
-        </span>
-        <span>
-          
-          <FaInstagram />
-          
-        </span>
-      </div>
 
-      <div className='flex items-center justify-center  h-[8vh] w-[100%] text-white'>
-      <span> <FaRegCopyright /></span>
-      <p>2024 Event Haven. All Rights Reserved. Terms|Privacy</p>
+        <div className='flex items-center justify-center  h-[20vh] w-[100%] text-gray-500 font-semibold'>
+      <FaRegCopyright className='flex items-center justify-center h-[4vh]'/>
+      <p>2024 Event Haven. All Rights Reserved. Terms | Privacy</p>
       </div>
+      {/* </div> */}
+
+    
     </section>
-   </main>
+   </section>
   )
 }
 

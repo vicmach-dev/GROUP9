@@ -10,13 +10,15 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { RiStarFill } from "react-icons/ri";
+import Event from "./Component/Event";
 
 const App = () => {
   
 
   return (
     <>
-      <Home/>    
+      <Home />
+      <Event/>
     </>
   )
 }

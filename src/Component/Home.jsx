@@ -16,7 +16,7 @@ import { RiStarFill } from "react-icons/ri";
 
 const Home = () => {
   return (
-   <main>
+   <section>
    {/* HEADER */}
    <header className="h-[12vh] bg-[gray] flex justify-around font-[times-new-roman] items-center text-white cursor-pointer w-[100%]">
         <div className="flex flex-col justify-center items-center">
@@ -37,14 +37,14 @@ const Home = () => {
       </header>
 
       {/* INRO */}
-    <section>
+    <section class="intro">
       <div className="h-[100vh] flex justify-center items-center">
-        <div className="flex justify-center items-center flex-col">
-          <h1 className="text-black text-5xl font-[times-new-roman] flex font-bold">
+        <div className="flex justify-center items-center flex-col gap-5">
+          <h1 className="text-6xl font-[times-new-roman] flex font-bold">
             Your Gateway To Professional Event Planning
           </h1>
-          <div className="flex justify-center items-center m-5">
-            <p className="text-black font-[times-new-roman] w-[35vw] text-2xl text-center">
+          <div className="flex justify-center items-center">
+            <p className=" font-[times-new-roman] w-[55vw] text-3xl  text-center">
               Our platform bridges the gap between clients and Professional
               planners, providing a seamless,efficient, and tailored approach to
               creating extraordinary events.
@@ -55,7 +55,7 @@ const Home = () => {
     </section>
 
     {/* WHAT WE DO */}
-    <section className="w-[100%] h-[100vh] flex items-center justify-center flex-col">
+    <section class="wedo">
       <div className="flex justify-center items-center w-[100%] h-[50vh]">
             <h1 className="text-3xl font-[times-new-roman] text-center font-bold">WHAT WE DO</h1>
       </div>
@@ -69,7 +69,7 @@ const Home = () => {
               the tools and resources to make every event seamless, stress-free,
               and unforgettable.
             </p>
-            <img src="src/assets/Images/IMAGE2.jpg" alt="" className='h-[80vh] w-[50vw]'/>
+            <img src="src/assets/Images/IMAGE2.jpg" alt="" className='h-[80vh] w-[50vw] flex items-center justify-center'/>
           </div>
     </section>
 
@@ -97,7 +97,7 @@ const Home = () => {
     </section>
 
     {/* WHAT WE OFFER */}
-    <section className="h-[100vh] w-[100%]">
+    <section className="h-[100vh] w-[100%] ">
       <h1 className="text-3xl font-[times-new-roman] text-center my-5 font-bold">
         WHAT WE OFFER
       </h1>
@@ -466,7 +466,7 @@ const Home = () => {
     </section>
 
       {/* FOOTER */}
-      <section className="bg-[#1f1f1f] h-[12vh] pt-4 font-[times-new-roman] flex items-center justify-center flex-col cursor-pointer">
+      <section className="bg-[#1f1f1f] h-[20vh] pt-4 font-[times-new-roman] flex items-center justify-center flex-col cursor-pointer">
       {/* <div className="flex justify-center text-2xl items-center w-[100%] h-[20vh] text-white border-blue-600 border-[1px]"> */}
         <span className='flex items-center justify-center w-[100%] text-white h-[10vh]'>
           <div className='w-[100%] flex items-center justify-center gap-10 '>
@@ -485,7 +485,7 @@ const Home = () => {
 
     
     </section>
-   </main>
+   </section>
   )
 }
 

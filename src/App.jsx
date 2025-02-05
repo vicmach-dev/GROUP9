@@ -1,6 +1,8 @@
 import './App.css'
 import Home from './Component/Home'
-import { FaFacebook } from "react-icons/fa";
+import Login from './Component/Login';
+import { FaRegEye } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 import { CiLinkedin } from "react-icons/ci";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
@@ -16,7 +18,8 @@ const App = () => {
 
   return (
     <>
-      <Home/>    
+      <Home/>
+      <Login/>
     </>
   )
 }

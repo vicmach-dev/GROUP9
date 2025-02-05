@@ -1,5 +1,7 @@
 import './App.css'
+
 import Home from './Component/Home'
+import Signup from "./Component/Signup";
 import Login from './Component/Login';
 import { FaRegEye } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
@@ -19,6 +21,7 @@ const App = () => {
   return (
     <>
       <Home/>
+      <Signup/>
       <Login/>
     </>
   )

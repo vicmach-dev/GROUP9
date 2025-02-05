@@ -97,13 +97,14 @@ const Home = () => {
     </section>
 
     {/* WHAT WE OFFER */}
-    <section className="h-[100vh] w-[100%] ">
-      <h1 className="text-3xl font-[times-new-roman] text-center my-5 font-bold">
+    <section class="weoffer">
+      <h1 className="text-3xl font-[times-new-roman] text-center  font-bold text-white">
         WHAT WE OFFER
       </h1>
+      <br />
 
       <div className="flex justify-center gap-5">
-        <div className=" shadow-lg shadow-[gray] h-[40vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-xl font-[times-new-roman] font-bold  text-center">
             Comprehensive Event Solutions
           </h1>
@@ -116,7 +117,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" shadow-lg shadow-[gray] h-[40vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-xl font-[times-new-roman] font-bold  text-center">
             Custom Event Planning
           </h1>
@@ -128,7 +129,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" shadow-lg shadow-[gray] h-[40vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h3 className="text-xl font-[times-new-roman] font-bold  text-center w-[20vw]">Professional Planner Network</h3>
           <div>
             <p className="font-[times-new-roman] mt-5 text-center p-3">
@@ -140,7 +141,7 @@ const Home = () => {
       </div>
 
       <div className="flex mt-10 justify-center gap-5">
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center">
             Trusted Vendor Access
           </h1>
@@ -151,7 +152,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center">
             Collaboration Made
           </h1>
@@ -162,12 +163,12 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className=" shadow-lg shadow-[gray] h-[45vh] w-[25vw] rounded-md flex items-center justify-center flex-col">
+        <div className=" shadow-sm shadow-[gray] h-[35vh] bg-white w-[25vw] rounded-md flex items-center justify-center flex-col">
           <h1 className="text-2xl font-[times-new-roman] font-bold  text-center">
             User-Friendly tools
           </h1>
           <div>
-            <p className="font-[times-new-roman] mt-5 text-center p-3">
+            <p className="font-[times-new-roman] text-center p-3">
               Utilize intuitive features such as RSVP tracking, ticketing
               systems, and real-time updates to keep your event on track.
             </p>

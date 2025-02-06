@@ -451,9 +451,9 @@ const Home = () => {
             <input
               type="email"
               placeholder="Email address"
-              className="w-[15vw] h-[5vh] rounded-l-md pl-3 rounded-r-md"
+              className="w-[15vw] h-[5vh] rounded-l-md pl-3"
             />
-            <button className="bg-[#fe2e19] text-white text-xl p-2 rounded-r-md absolute h-[5vh] rounded-l-md">
+            <button className="bg-[#fe2e19] text-white text-xl p-2 rounded-r-md absolute h-[5vh] ">
               
                 <FaArrowRight />
               
@@ -484,6 +484,7 @@ const Home = () => {
       </div>
       {/* </div> */}
 
+      
     
     </section>
    </section>

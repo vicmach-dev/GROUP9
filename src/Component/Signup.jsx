@@ -7,7 +7,7 @@ function Signup() {
   return (
     <main
       style={{ backgroundImage: `url('${Picture}')` }}
-      className=" h-[100vh] w-[100%] flex justify-center items-center bg-center bg-cover bg-[rgba(255,255,255,0.9)]"
+      className=" h-[100vh] w-[100%] pb-10 flex justify-center items-center bg-center bg-cover bg-[rgba(255,255,255,0.9)]"
     >
       <section className="h-[80vh] w-[70vw] border-blue-300 border-2 shadow-sm shadow-blue-500fv  bg-[rgba(255,255,255,0.6)]">
         <div className="flex flex-col justify-center items-center  ">
@@ -71,8 +71,8 @@ function Signup() {
 
         <p className="text-center mt-5">
           By creating your account, you agree to the{" "}
-          <span className=" text-orange-400">Terms of Services</span> and{" "}
-          <span className=" text-orange-400">Privacy Policy</span>
+          <span className=" text-orange-600">Terms of Services</span> and{" "}
+          <span className=" text-orange-600">Privacy Policy</span>
         </p>
 
         <span className="flex justify-center items-center mt-8">
@@ -82,8 +82,8 @@ function Signup() {
           </button>
         </span>
 
-        <p className="text-center">
-          Already have an account?<span className="text-orange-400">Login</span>
+        <p className="text-center text-sm font-mono">
+          Already have an account?<span className="text-orange-600">Login</span>
         </p>
       </section>
     </main>

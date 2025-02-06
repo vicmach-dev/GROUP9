@@ -10,7 +10,7 @@ import Calendar from "../assets/Images/Calendar.jpeg";
 
 const Event = () => {
   return (
-    <section className="bg-gray-300 px-8 h-[100vh] w-[100%]">
+    <section className="bg-gray-300 px-8 h-screen w-[100%]">
       <h1 className="flex justify-center items-center text-2xl h-16">
         MY EVENTS
       </h1>
@@ -36,9 +36,9 @@ const Event = () => {
 
         <div
           style={{ backgroundImage: `url('${Party}')` }}
-          className="bg-cover bg-center rounded-md h-[23vh] flex justify-center items-center  text-black"
+          className="bg-cover bg-center rounded-md h-[23vh] flex justify-center items-center  text-white"
         >
-          <button className="bg-white text-xl border w-36 border-1ps border-gray-600 rounded-md items-center font-bold  ">
+          <button className=" text-xl border w-40 h-8 border-1ps border-[#b5a3f9] rounded-md items-center font-bold bg-[#b5a3f9]">
             Popular Events
           </button>
         </div>

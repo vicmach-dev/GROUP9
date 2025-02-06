@@ -7,7 +7,7 @@ function Signup() {
   return (
     <main
       style={{ backgroundImage: `url('${Picture}')` }}
-      className=" h-[90vh] flex justify-center items-center bg-center bg-cover bg-[rgba(255,255,255,0.9)]"
+      className=" h-[100vh] w-[100%] flex justify-center items-center bg-center bg-cover bg-[rgba(255,255,255,0.9)]"
     >
       <section className="h-[80vh] w-[70vw] border-blue-300 border-2 shadow-sm shadow-blue-500fv  bg-[rgba(255,255,255,0.6)]">
         <div className="flex flex-col justify-center items-center  ">

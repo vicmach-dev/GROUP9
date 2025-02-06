@@ -10,7 +10,7 @@ import Calendar from "../assets/Images/Calendar.jpeg";
 
 const Event = () => {
   return (
-    <main className="bg-gray-300 px-8 h-full">
+    <section className="bg-gray-300 px-8 h-[100vh] w-[100%]">
       <h1 className="flex justify-center items-center text-2xl h-16">
         MY EVENTS
       </h1>
@@ -81,7 +81,7 @@ const Event = () => {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 

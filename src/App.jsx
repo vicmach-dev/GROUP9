@@ -1,5 +1,7 @@
 import './App.css'
+
 import Home from './Component/Home'
+import Signup from "./Component/Signup";
 import Login from './Component/Login';
 import { FaRegEye } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
@@ -12,17 +14,19 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { RiStarFill } from "react-icons/ri";
-import Event from "./Component/Event";
+import Event from './Component/Event'
 
 const App = () => {
   
 
   return (
+
     <>
 
-      <Home/>
-  <Event/>
-      <Login/>
+    <Home/>
+    <Login/>
+    <Signup/>
+    <Event/>
 
     </>
   )

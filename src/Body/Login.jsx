@@ -2,10 +2,14 @@ import React from "react";
 import { FaRegEye } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { RiFacebookCircleFill } from "react-icons/ri";
+import LoginBg from "../assets/Images/LoginBg.jpeg"
 
 const Login = () => {
   return (
-    <main>
+    <main
+      className="flex items-center bg-cover bg-center justify-center h-screen bg-gray-100"
+      style={{ backgroundImage: `url('${LoginBg}')` }}
+    >
       <div className="w-[50%] h-[70vh] bg-white rounded-md flex flex-col items-center justify-center bg-opacity-50 gap-[3vh]">
         <h1 className="w-[100%] h-[10vh] flex items-center justify-center text-lg font-bold">
           Login

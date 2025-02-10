@@ -15,6 +15,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { RiStarFill } from "react-icons/ri";
 import Event from './Component/Event'
+import { FiFacebook } from "react-icons/fi";
 
 const App = () => {
   

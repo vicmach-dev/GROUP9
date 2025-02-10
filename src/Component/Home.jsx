@@ -482,10 +482,7 @@ const Home = () => {
       <FaRegCopyright className='flex items-center justify-center h-[4vh]'/>
       <p>2024 Event Haven. All Rights Reserved. Terms | Privacy</p>
       </div>
-      {/* </div> */}
-
-      
-    
+      {/* </div> */}    
     </section>
    </section>
   )

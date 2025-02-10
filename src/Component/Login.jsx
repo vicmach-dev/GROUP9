@@ -60,9 +60,9 @@ const Login = () => {
           <button className="w-[10vw] h-[5vh] border-orange-300 bg-black text-orange-300 border-[1px] rounded-md text-[2vh] font-serif">
             Login
           </button>
-          <small className="text-[1.5vh] font-serif">
-            Forgot Your Password
-          </small>
+          <button className="text-[1.5vh] font-serif">
+            Forgot Your Password?
+          </button>
         </section>
       </div>
     </main>
